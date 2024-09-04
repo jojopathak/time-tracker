@@ -1,0 +1,54 @@
+/* Container for the entire stats page */
+.stats-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Style for the controls section (dropdowns) */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  font-size: 16px;
+  color: #555;
+}
+
+.controls select {
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for the date picker */
+.date-picker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+/* Container for the chart */
+.chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: Style for the chart itself */
+.chart-container .chart {
+  width: 100%;
+  max-width: 600px;
+}

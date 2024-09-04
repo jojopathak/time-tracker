@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px; /* Add padding for the box effect */
+  border-radius: 25px; /* Makes the box rounded */
+  background-color: #555; /* Background color for the rounded box */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar ul li a:hover {
+  background-color: #777; /* Background color on hover */
+  text-decoration: none;
+}
